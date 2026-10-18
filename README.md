@@ -1,54 +1,27 @@
-# 록맨 제로 3 · 오메가 제로 한글 모드
+# 오메가 제로 한글 모드 정식 v1.1.0
 
-**정식 배포 v1.1.0** — 일본판 원본에 한글 번역·타이틀·오메가 모드를 한 번에 적용하는 패치입니다.
+일본판 원본에 한글 번역·타이틀·오메가 모드를 한 번에 적용합니다.
+
+## 상세 소개 · 패치 방법 · 기술표
+
+제작 이야기, 설치 순서, 조작과 각성 기술, 실제 플레이 GIF, 저장·복원 및 오류 해결은 블로그에서 확인하세요.
+
+| 언어 | 블로그 안내 |
+| --- | --- |
+| 한국어 | [록맨 제로 3 오메가 제로 한글 모드 — 배포 및 패치 방법](https://mntkim.com/%EB%A1%9D%EB%A7%A8-%EC%A0%9C%EB%A1%9C-3-%EC%98%A4%EB%A9%94%EA%B0%80-%EC%A0%9C%EB%A1%9C-%ED%95%9C%EA%B8%80-%EB%AA%A8%EB%93%9C-v1-1-0-%EB%B0%B0%ED%8F%AC-%EB%B0%8F-%ED%8C%A8%EC%B9%98-%EB%B0%A9%EB%B2%95/) |
+| English | [Rockman Zero 3 — Omega Zero Korean Mod — Download & Guide](https://mntkim.com/rockman-zero-3-omega-zero-korean-mod-v1-1-0-download-guide/) |
+
+The English article explains installation and controls. The game text and patcher interface are in Korean.
 
 ## 다운로드
 
-👉 **[최신 릴리즈 다운로드](https://github.com/holizero/rockman-zero3-omega-ko/releases/latest)**
+- **[패치 도구 포함 ZIP 바로 다운로드](https://github.com/holizero/rockman-zero3-omega-ko/releases/download/v1.1.0/omega-zero-ko-v1.1.0.zip)**
+- [ZIP SHA-256 체크섬](https://github.com/holizero/rockman-zero3-omega-ko/releases/download/v1.1.0/omega-zero-ko-v1.1.0.zip.sha256)
 
-릴리즈의 **Assets**에서 `omega-zero-ko-v1.1.0.zip`을 받으세요. GitHub가 자동으로 표시하는 `Source code (zip)`은 패치 배포 ZIP이 아닙니다.
+ZIP에는 한글 패치 도구·설치/복원 IPS·사용 안내·기술 GIF 11종이 포함됩니다. **게임 롬·세이브·에뮬레이터는 포함하지 않습니다.**
 
-## 처음 사용하는 방법
+설치 입력은 일본판 원본만 지원합니다: 8,388,608바이트, SHA-1 `ff7a801776dc76e6d8c7ef73a6660ae732934a3f`.
 
-1. 배포 ZIP을 새 폴더에 모두 풉니다.
-2. `오메가제로_패치도구.html`을 Edge 또는 Chrome에서 엽니다.
-3. 본인이 준비한 일본판 원본 `.gba` 파일을 선택합니다.
-4. **패치한 롬 저장**을 누르고, 다운로드한 새 롬을 에뮬레이터에서 엽니다.
+전체 스테이지·모든 보스 완주와 모든 기존 저장 데이터 조합은 미검증입니다.
 
-설치와 인터넷 연결 없이 사용할 수 있습니다. 원본 파일은 직접 덮어쓰지 않으며, 입력·출력 해시가 일치할 때만 새 파일을 저장합니다.
-
-## 필요한 원본
-
-| 항목 | 값 |
-| --- | --- |
-| 게임 | Rockman Zero 3 (Japan) |
-| 크기 | 8,388,608바이트 (8 MiB) |
-| 게임 코드 | BZ3J |
-| SHA-1 | `ff7a801776dc76e6d8c7ef73a6660ae732934a3f` |
-
-한국어판·북미판·개발 시험판·다른 개조판은 설치 입력으로 지원하지 않습니다. **게임 원본 롬·완성 롬·세이브·에뮬레이터는 배포하지 않습니다.**
-
-## 포함된 파일
-
-- 오프라인 한글 패치 도구
-- 일본판 원본용 설치 IPS와 원본 복원 IPS
-- 사용법·조작표·오류 해결·릴리즈 정보
-- 실제 플레이 기술 GIF 11종
-- 파일별 SHA-256 체크섬과 릴리즈 명세
-
-일반 IPS 도구로 직접 적용할 수도 있습니다. 자세한 설명은 ZIP의 `먼저읽기.txt`를 확인하세요.
-
-## 주요 내용
-
-- 한글 타이틀과 메뉴
-- 오메가 색상·각성 연출·대사
-- 멸섬광·열광패·회복·7단베기·용염인·회전베기·참예탄·차지세이버·추가 점프·버스터 연계
-- 도구 안의 기술표에서 입력·조건·실제 GIF 확인
-
-## 저장과 검증 범위
-
-기존 배터리 저장은 먼저 백업하세요. 이전 버전의 즉시 저장을 불러오지 말고 에뮬레이터를 재시작해 새 게임으로 확인하세요.
-
-설치·복원 바이트 일치, 패키지 무결성, 주요 기술과 한글 타이틀을 검사했습니다. 전체 스테이지·모든 보스 완주와 모든 기존 저장 데이터 조합은 미검증입니다.
-
-게임 원작 표기: CAPCOM / INTI CREATES. 번역·기존 개조 자료에 관한 출처와 검증 한계는 배포 ZIP의 `릴리즈정보.txt`에 기록되어 있습니다.
+> 릴리즈의 Assets에서 받을 때는 `omega-zero-ko-v1.1.0.zip`을 선택하세요. GitHub 자동 생성 `Source code (zip)`은 배포 패키지가 아닙니다.
